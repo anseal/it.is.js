@@ -1,0 +1,10 @@
+{
+"name": "it.js.js",
+"version": "0.1.0",
+"description": "checks type of values",
+"main": "is.js",
+"type": "module",
+"scripts": { "test": "node tests_node.js" },
+"author": "anseal",
+"license": "MIT"
+}
