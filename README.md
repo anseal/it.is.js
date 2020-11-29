@@ -4,7 +4,7 @@ This library solve only one problem - it checks if values are of the kind you ex
 
 Because the library was **generated**.
 
-Correcteness of it's functions is tested on (parially generated) corpus of hundreds values.
+Correctness of it's functions is tested on (partially generated) corpus of hundreds values.
 
 Performance of it's functions is close to the theoretical maximum.
 
@@ -12,11 +12,11 @@ The only reason it is not the maximum - because there is none. Performance is st
 
 ----
 
-After this elevator pitch let's be frank. There are manual tweaks in almost every function. But all the hard work of figuring out the hard cases and the corner cases was indeed done by the generation. And many optimization ideas were discovered through the analysis of performance of generated functions. But because choosing the final version of a function was a manual process it is not a strong guaranty that my choices were the best.
+After this elevator pitch let's be frank. There are manual tweaks in almost every function. But all the hard work of figuring out the hard cases and the corner cases was indeed done by the generator. And many optimization ideas were discovered through the analysis of performance of generated functions. But because choosing the final version of a function was a manual process it is not a strong guaranty that my choices were the best.
 
-Also, no matter hundreds or hundred thousands tests are there, in JS you can always write an object that can skip them (e.g with the help of `Proxy`). And there are some objects I didn't include in the tests not because I can't generate functions to recognize them, but because I don't know yet should those object be accepted as a members of some class or rejected.
+Also, no matter hundreds or hundred thousands tests are there, in JS you can always write an object that can skip them (e.g with the help of `Proxy`). And there are some objects I didn't include in the tests yet not because I can't generate functions to recognize them, but because I don't know should those object be accepted as a members of a class or rejected.
 
-There are 70+ function in the library right now and it's easy to add more. I'm ready to add them on request. The only obstacle - good function names. They are a little bit chaotic at the moment and probably will change. Sugessions are welcomed.
+There are 70+ function in the library right now and it's easy to add more. The only obstacle - good function names. They are a little bit chaotic at the moment and probably will change. Suggestions an requests are welcomed.
 
 # Documentation
 
@@ -38,9 +38,9 @@ I see no reason to explain in words what a functions like
 ```javascript
 is_number = v => typeof v === "number"
 ```
-do.
+does.
 
-Of course, there are more complex function than that, but names should give you a hint, and oneliners (insluded in `JSDoc` comments) are self-explanatory for most cases. And if not - you can check the list of matching values inside `/value_classes`.
+Of course, there are more complex function than that, but names should give you a hint, and oneliners (included in `JSDoc` comments) are self-explanatory for most cases. And if not - you can check the list of matching values inside `/value_classes`.
 
 I'll add more docs later when I'll figure out how and when it can be helpful. PRs are welcomed.
 
