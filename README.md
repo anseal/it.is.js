@@ -1,6 +1,6 @@
 # it.is.js
 
-This library solve only one problem - it checks if values are of the kind you expect them to be. But it **servers it right**.
+This library solve only one problem - it checks if values are of the kind you expect them to be. But it **serves it right**.
 
 Because the library was **generated**.
 
@@ -110,13 +110,13 @@ in your code.
 
 I'm not sure if there is a need for more documentation.
 
-I see no reason to explain in words what a functions like
+I see no reason to explain in words what a function like
 ```javascript
 is_pure_number = v => typeof v === "number"
 ```
 does.
 
-Of course, there are more complex function than that, but names should give you a hint, and oneliners (included in `JSDoc` comments) are self-explanatory for most cases. And if not - you can check the list of matching values inside `/value_classes` folder.
+Of course, there are more complex functions than that, but names should give you a hint, and one-liners (included in `JSDoc` comments) are self-explanatory for most cases. And if not - you can check the list of matching values inside `/value_classes` folder.
 
 I'll add more docs later when I'll figure out how and when it can be helpful. PRs are welcomed.
 
