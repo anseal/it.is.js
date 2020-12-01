@@ -1,6 +1,6 @@
 # it.is.js
 
-This library solve only one problem - it checks if values are of the kind you expect them to be. But it **serves it right**.
+This library solve only one problem - it checks if values are of the kind you expect them to be. But it **solves it right**.
 
 Because the library was **generated**.
 
