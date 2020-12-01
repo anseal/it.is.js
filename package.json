@@ -1,10 +1,25 @@
 {
-"name": "it.js.js",
-"version": "0.1.0",
-"description": "checks type of values",
-"main": "is.js",
-"type": "module",
-"scripts": { "test": "node tests_node.js" },
-"author": "anseal",
-"license": "MIT"
+	"name": "it_is_js",
+	"version": "1.0.0",
+	"description": "checks type of values",
+	"keywords": [],
+	"homepage": "https://github.com/anseal/it.is.js.git#readme",
+	"bugs": {
+		"url" : "https://github.com/anseal/it.is.js/issues",
+	},
+	"main": "is.js",
+	"type": "module",
+	"files": [
+		"src/*",
+		"special_symbols.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/anseal/it.is.js.git"
+	},
+	"scripts": {
+		"test": "node tests_node.js"
+	},
+	"author": "anseal",
+	"license": "MIT"
 }
