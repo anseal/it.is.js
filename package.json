@@ -5,7 +5,7 @@
 	"keywords": [],
 	"homepage": "https://github.com/anseal/it.is.js.git#readme",
 	"bugs": {
-		"url" : "https://github.com/anseal/it.is.js/issues",
+		"url" : "https://github.com/anseal/it.is.js/issues"
 	},
 	"main": "is.js",
 	"type": "module",
