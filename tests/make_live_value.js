@@ -1,5 +1,5 @@
 import * as module_value  from "./module_value.js"
-import { hidden_symbols } from "./special_symbols.js"
+import { hidden_symbols } from "../special_symbols.js"
 
 // `GeneratorFunction` etc - the objects that is not in `globalThis`
 const hidden_symbols_keys   = Object.keys  (hidden_symbols)
